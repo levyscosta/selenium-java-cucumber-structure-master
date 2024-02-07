@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Pesquisa simples no Google",
+        "description": "",
+        "id": "pesquisa-google;pesquisa-simples-no-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3426246800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "O usuario esta na pagina inicial do Google",
+            "match": {
+              "location": "PesquisaGoogleSteps.o_usuario_esta_na_pagina_inicial_do_Google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 326442800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "O usuario pesquisa por",
+            "match": {
+              "location": "PesquisaGoogleSteps.o_usuario_pesquisa_por()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3208225700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "A página de resultados é exibida",
+            "match": {
+              "location": "PesquisaGoogleSteps.a_pagina_de_resultados_e_exibida()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Pesquisa Google",
+    "description": "",
+    "id": "pesquisa-google",
+    "keyword": "Feature",
+    "uri": "pesquisaGoogle.feature"
+  }
+]
